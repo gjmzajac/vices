@@ -77,7 +77,7 @@ string Report::nth_field_to_string(string const &str, int n, char delim){
 		return "";
 	
 	for (int pos2 = pos1 + 1; pos2 < str.length(); pos2++){
-		if(str[pos2] == delim)
+		if(str[pos2] == delim || pos2 == str.length()-1)
 			return(str.substr(pos1, pos2 - pos1));
 	}
 	return "";
