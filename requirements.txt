@@ -1,3 +1,3 @@
 http://zlib.net/zlib-1.2.11.tar.gz
-http://sourceforge.net/projects/arma/files/armadillo-8.400.0.tar.xz -DBUILD_SHARED_LIBS=OFF
-statgen/libStatGen@v1.0.14 --cmake dep/libstatgen.cmake
+http://sourceforge.net/projects/arma/files/armadillo-8.600.1.tar.xz -DBUILD_SHARED_LIBS=OFF
+statgen/libStatGen@v1.0.15 --cmake dep/libstatgen.cmake
